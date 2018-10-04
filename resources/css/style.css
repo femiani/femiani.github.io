@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    }
+    body {
+    font-family: "Times New Roman", serif;
+    margin: 10px 0 0 0;
+    padding: 0 10%;
+    } 
+    h1, h2, h3, h4, h5, h6 {
+    background-color: #49B749;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0 0 10px 10px;
+    width:100%;
+    }
+    
+.menu {
+    margin: 5px auto 10px auto;
+    list-style:none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    } 
+    .menu > li {
+    display: inline-block;
+    }
+
+    .menu-button {
+        background-color: #0093D5;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        color: #ffffff;
+        display: inline-block;
+        
+        
+        margin: 5px;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration:none;
+        transition: all 0.2s ease-out;
+        }
+        .menu-button:hover {
+            box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+            transform: translateY(-2px);
+            }
+            .picture-heading {
+                height: 150px;
+                margin: 10px 0;
+                position: relative;
+                }
+                .picture-heading img {
+                    height: 150px;
+                    border-radius: 50%;
+                    z-index: 40;
+                    position: absolute;
+                    left: 20px;
+                    border: 2px solid #ddd;
+                    }
+
+                    .picture-heading h2 {
+                        position: absolute;
+                        line-height: 100px;
+                        height: 100px;
+                        padding: 0 0 0 190px;
+                        width: 100%;
+                        }.lightbox{
+                            background: rgba(0,0,0,0.8);
+                            color: #fff;
+                            height: 100%;
+                            left: 0;
+                            position: fixed;
+                            text-align: center;
+                            text-decoration: none;
+                            top: 0;
+                            visibility: hidden;
+                            width: 100%;
+                            z-index: 999;
+                            }.lightbox:target {
+                            outline: none;
+                            visibility: visible;
+                            }
+                            

@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    position: relative;
+}
+.head{
+position: absolute;
+right: 0;
+width: 75%;
+height: 5%;
+top: 10;
+}
+#search{
+    width: 5%;
+    height: 90%;
+ transition: all 0.3s ease-out;
+    
+}
+#search:hover{
+      box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+            transform: translateY(-2px);
+}
+
+
+input[type=text]{
+    width: 40%;
+     padding: 2px;
+    height: 90%;
+    
+    border-radius: 0px;
+    font-size: 100%
+}
+#menu{
+    position: absolute;
+    left: 5;
+    top: 10;
+    height: 5%;
+    width: 3%;
+    transition: all 0.3s ease-out;
+
+
+}
+#menu:hover{
+     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+            transform: translateY(-2px);
+}
+
+.content{
+    position: relative;
+    top: 50;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+nav{
+    position: relative;
+    left: 2;
+    height: 100%;
+    width: 15%;
+    background-color: #000;
+    text-align: center;
+    
+}
+nav ul{
+    width: 100%;
+    height: 100%
+}
+nav ul a{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1%;
+    font-size: 1.5em;
+    height: 100%;
+    
+    text-decoration: none;
+    
+}
+nav ul a li {
+    
+    margin-bottom: 10%;
+    width: 100%;
+    color: #fff;
+    transition: all 0.2s ease-out;
+}
+
+nav ul a li:hover {
+    background-color: #fff;
+    margin-bottom: 10%;
+    width: 100%;
+    color: #000;
+}
